@@ -20,10 +20,12 @@ export default function Nav() {
               <NavLink to="/form" className="menu-link">
                 Predict
               </NavLink>
-              <Link
+             <Link
             to="https://github.com/ragav2005/Heart-disease-predictor"
             className="menu-link"
           >
+            GitHub
+          </Link>
             </div>
           </div>
         </div>
