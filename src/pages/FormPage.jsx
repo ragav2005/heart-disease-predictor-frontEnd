@@ -54,7 +54,6 @@ function FormPage() {
 
           const data = await response.json();
           fetchDispatch({ type: "success", payload: data });
-          console.log(data);
         } catch (error) {
           fetchDispatch({ type: "error", payload: error.message });
         }
